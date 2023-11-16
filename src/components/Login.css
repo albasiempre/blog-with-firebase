@@ -1,0 +1,23 @@
+.loginButton {
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loginText {
+  margin-right: 20px;
+  color: white;
+}
+
+.loginWithGoogle {
+  padding: 10px 30px;
+  border-radius:10px;
+  outline: none;
+  border: none;
+}
+
+.loginWithGoogle:hover {
+  transition: all 0.3s;
+  opacity: 0.8;
+}
