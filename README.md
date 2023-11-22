@@ -35,6 +35,6 @@
 ## 参考にした web サイトなど
 
 https://firebase.google.com/docs/firestore/query-data/get-data
-
+https://qiita.com/zgmf_mbfp03/items/008436c5749d65f96e55
   
   - 後で見返せるように
