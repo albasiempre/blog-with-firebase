@@ -34,6 +34,7 @@ const CreatePost = ({isAuth}) => {
   return (
 
     <div className="createPost">
+      <div className='postCover'>
       <div className="postWrapper">
         <h1 className='mainTitle'>Create a Post </h1>
         <div className="inputPost">
@@ -53,6 +54,7 @@ const CreatePost = ({isAuth}) => {
           </textarea>
         </div>
         <button className="postButton" onClick={createPost}>make a post</button>
+      </div>
       </div>
     </div>
   );

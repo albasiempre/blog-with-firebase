@@ -7,26 +7,26 @@ import "./Navbar.css";
 const Navbar = ({ isAuth }) => {
   return (
     <div className='nav-cover'>
-        <nav className='nav'>
-        {/* <Link to="/">
-          <FontAwesomeIcon icon={ faHouse }/>
-          ホーム
-        </Link> */}
-        {!isAuth ? (
-          <Link to="/">
+      <nav className='nav'>
+        <Link to="/">
           <FontAwesomeIcon icon={ faHouse }/>
           HOME
-          </Link>
-        // <Link to="/login">
-        //   <FontAwesomeIcon icon={ faArrowRightToBracket }/>
-        //   ログイン
-        // </Link>
+        </Link>
+        {!isAuth ? (
+        // <Link to="/">
+        //   <FontAwesomeIcon icon={ faHouse }/>
+        //   HOME
+        //   </Link>
+        <Link to="/login">
+          <FontAwesomeIcon icon={ faArrowRightToBracket }/>
+          LOGIN
+        </Link>
         ) : (
         <>
-          <Link to="/">
+          {/* <Link to="/">
             <FontAwesomeIcon icon={ faHouse }/>
               HOME
-          </Link>
+          </Link> */}
           <Link to="/createpost">
             <FontAwesomeIcon icon={ faFilePen }/>
             POST

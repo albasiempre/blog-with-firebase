@@ -18,6 +18,7 @@ const Home = () => {
 
   const handleDelete = async (id) => {
     await deleteDoc(doc(db, "posts",id));
+    alert('Are you okay?');
     window.location.href = "/";
   }
 
